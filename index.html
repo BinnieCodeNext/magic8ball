@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Passion+One&display=swap" rel="stylesheet">
+    <title>Magic 8 Ball Project</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <span class="name">Magic 8 Ball </span>
+        <span class="hurt">🎱</span>
+      </h1>
+
+      <p class="tagline">Ask me a question and press the button.</p>
+    </header>
+    <main>
+      <div class="container">
+        <img
+          class="fortune-image"
+          src="https://trackxperience.com/assets/Magic-eight-ball.gif"
+        />
+        <div class="fortune-box">
+          <button onclick="magicBall()" class="fortune-btn">
+            What is in store?
+          </button>
+          <div>
+            <h3 class="fortune-txt"> Fortune goes here!</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
